@@ -1,21 +1,29 @@
 {
-  "name": "brasileirao-api",
+  "name": "brasileirao-bcsalar",
   "version": "1.0.0",
-  "description": "Api para os dados de tabela e placar do brasileirão ",
+  "description": "Api para os dados da tabela e placar do brasileirão ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunocruzsilva/brasileirao-api.git"
+    "url": "git+https://github.com/brunocruzsilva/brasileirao-bcsalar.git"
   },
+  "keywords": [
+    "campeonato",
+    "brasileiro",
+    "futebol",
+    "brazil",
+    "brasileirao",
+    "soccer brazil"
+  ],
   "author": "BRUNO CRUZ SILVA",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brunocruzsilva/brasileirao-api/issues"
+    "url": "https://github.com/brunocruzsilva/brasileirao-bcsalar/issues"
   },
-  "homepage": "https://github.com/brunocruzsilva/brasileirao-api#readme",
+  "homepage": "https://github.com/brunocruzsilva/brasileirao-bcsalar#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "es6-promise": "^4.2.8"
