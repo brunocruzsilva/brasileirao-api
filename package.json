@@ -1,0 +1,23 @@
+{
+  "name": "brasileirao-api",
+  "version": "1.0.0",
+  "description": "Api para os dados de tabela e placar do brasileirão ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunocruzsilva/brasileirao-api.git"
+  },
+  "author": "BRUNO CRUZ SILVA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunocruzsilva/brasileirao-api/issues"
+  },
+  "homepage": "https://github.com/brunocruzsilva/brasileirao-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "es6-promise": "^4.2.8"
+  }
+}
