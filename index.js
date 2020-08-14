@@ -9,7 +9,8 @@ exports.rodada = function (rodada) {
     var rodadaBaseURL = urlBase.replace('{0}', rodada);
     return new Promise(function (accept, error) {
         axios.get(rodadaBaseURL, {
-            'User-Agent': userAgent
+            'User-Agent': userAgent,
+            'Access-Control-Allow-Origin': '*'
         }).then(function (response) { 
 
             var lista = [];
